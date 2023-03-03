@@ -1,6 +1,5 @@
 name: My plan
 level: beginner
-update_id: 2dbc4d15-8c79-4a37-a263-7c913715d216
 author: Jit
 version: 0.1
 owners:
@@ -11,3 +10,6 @@ tags: []
 items:
   - name: Scan code for hard-coded secrets
     uses: jitsecurity-controls/jit-plans/items/code/item-secret-detection.yml@latest
+  - name: Scan your code for vulnerabilities (SAST)
+    uses: >-
+      jitsecurity-controls/jit-plans/items/code/item-code-vulnerability.yml@latest
